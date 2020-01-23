@@ -37,9 +37,8 @@ class Waiter
       if x < meal.tip
         x = meal.tip
         c = meal.customer
+      end
       }
-    end
-    
     c
   end
 end
