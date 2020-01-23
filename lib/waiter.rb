@@ -31,12 +31,7 @@ class Waiter
   end
   
   def best_tipper
-    x = 0
-    c = nil
-    Meal.all.each {|meal|}
-      if x < meals.max
-        x = meal.max
-        c = meal.customer
+    
       end
     
   end
