@@ -38,7 +38,6 @@ class Waiter
         x = meal.max
         c = meal.customer
       end
-      
-    c
+    
   end
 end
