@@ -34,8 +34,8 @@ class Waiter
     x = 0
     c = nil
     Meal.all.each {|meal|}
-      if x < meals.tip
-        x = meal.tip
+      if x < meals.max
+        x = meal.max
         c = meal.customer
       end
       
