@@ -31,5 +31,7 @@ class Waiter
   end
   
   def best_tipper
+    x = 0
+    c = nil
     
 end
