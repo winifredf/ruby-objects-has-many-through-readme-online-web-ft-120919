@@ -35,4 +35,6 @@ class Waiter
     c = nil
     Meal.all.each {|meal|}
       if x < meal.tip
+        x = meal.tip
+        c = 
 end
