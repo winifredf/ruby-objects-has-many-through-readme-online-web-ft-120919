@@ -38,7 +38,7 @@ class Waiter
         x = meal.tip
         c = meal.customer
       end
-      }
+      
     c
   end
 end
