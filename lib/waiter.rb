@@ -29,10 +29,4 @@ class Waiter
       meal_a.tip <=> meal_b.tip
     end
   end
-  
-  def best_tipper
-    def new_meal_20_percent(waiter, total)
-    tip = total * 0.2
-    Meal.new(waiter, self, total, tip)
-  end
 end
