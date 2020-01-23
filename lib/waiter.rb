@@ -34,5 +34,5 @@ class Waiter
     x = 0
     c = nil
     Meal.all.each {|meal|}
-    
+      if 
 end
