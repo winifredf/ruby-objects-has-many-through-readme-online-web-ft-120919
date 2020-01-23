@@ -24,9 +24,15 @@ class Waiter
     end
   end
   
-  def best_tipper
+  def best_tipped_meal
     best_tipped_meal = meals.max do |meal_a, meal_b|
       meal_a.tip <=> meal_b.tip
     end
+  end
+  
+  def best_tipper
+    def new_meal_20_percent(waiter, total)
+    tip = total * 0.2
+    Meal.new(waiter, self, total, tip)
   end
 end
