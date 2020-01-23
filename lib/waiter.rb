@@ -36,5 +36,6 @@ class Waiter
     Meal.all.each {|meal|}
       if x < meal.tip
         x = meal.tip
-        c = 
+        c = meal.customer
+      
 end
