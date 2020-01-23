@@ -33,5 +33,5 @@ class Waiter
   def best_tipper
     x = 0
     c = nil
-    Meal.all.each 
+    Meal.all.each {me
 end
