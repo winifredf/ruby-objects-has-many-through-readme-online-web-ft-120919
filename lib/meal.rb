@@ -15,4 +15,8 @@ class Meal
   def self.all
     @@all
   end
+  
+  def tip
+    @tip
+  end
 end
